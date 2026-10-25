@@ -24,7 +24,6 @@ SB_KEY = os.getenv("SUPABASE_KEY", "")
 
 HEADERS = {
     "apikey": SB_KEY,
-    "Authorization": f"Bearer {SB_KEY}",
     "Content-Type": "application/json",
     "Prefer": "return=representation",
 }
